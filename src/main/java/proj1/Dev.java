@@ -18,5 +18,13 @@ public class Dev extends Emp {
         this.isUnitTesting = isUnitTesting;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
 }
 

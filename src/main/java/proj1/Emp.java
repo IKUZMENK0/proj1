@@ -7,19 +7,20 @@ public class Emp {
     private int experienceCount;
     private String role;
 
-    private String setName() {
+    private String getName() {
         return name;
     }
-    private String setSurname() {
+    private String getSurname() {
         return surname;
     }
-    private int setAge() {
+    private int getAge() {
         return age;
     }
-    private int setExperienceCount() {
+    private int getExperienceCount() {
         return experienceCount;
     }
-    private String setRole() {
+    private String getRole() {
         return role;
     }
+
 }
